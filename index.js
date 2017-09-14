@@ -1,4 +1,5 @@
 window.CookieUtil = function() {
+
 	return {
 		constructor: function() {
 			this.cookie = this.parse()
