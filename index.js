@@ -25,7 +25,7 @@ window.CookieUtil = function() {
 			return this.tryJSON(this.cookie[name])
 		},
 
-		create(name, value, days) {
+		create: function(name, value, days) {
 			const date = new Date(),
 				time = date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000)),
 				expires = ((days) ? '; expires=' + date.toGMTString() : '')
