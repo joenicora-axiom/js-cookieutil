@@ -9,6 +9,7 @@ CookieUtil = new CookieUtil();
 CookieUtil.dump();
 
 // you can use plain text or serialize/deserialize JSON
+
 CookieUtil.create('CookieUtil', '{"message":"Mildly handy utility"}', 10);// name, value, days
 
 CookieUtil.dump();
